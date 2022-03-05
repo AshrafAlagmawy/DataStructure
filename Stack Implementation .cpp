@@ -103,7 +103,7 @@ public:
 		if (IsEmpty())
 			cout << "The Stack Is Empty ...! " << endl;
 		else
-			cout << "The Top Value Of The Stack = " << array[0] << endl;
+			cout << "The Last Value Of The Stack = " << array[0] << endl;
 	}
 
 	void Print() {
