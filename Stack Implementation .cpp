@@ -12,10 +12,8 @@ private:
 	t* array;
 
 public:
-	
-	Stack() {}
 
-	Stack(int s) {
+	Stack(int s = 0) {
 		max_size = s;
 		length = 0;
 		top = -1; // Becouse the first element starts by index 0 
@@ -90,6 +88,10 @@ public:
 			cout << "The Length Of The Elements Of The Stack = " << length << endl;
 	}
 
+	void Get_Size() {
+		cout << "The Size Of The Stack = " << max_size << endl;
+	}
+
 	void Get_Top() {
 
 		if (IsEmpty())
@@ -104,6 +106,20 @@ public:
 			cout << "The Stack Is Empty ...! " << endl;
 		else
 			cout << "The Last Value Of The Stack = " << array[0] << endl;
+	}
+
+	void ResizeStack(int NewSize) {
+		if (NewSize <= max_size)
+			cout << "The New Size Of The Stack Must Be Bigger Than The Old Size ...! " << endl;
+		else {
+			max_size = NewSize;
+			t* PtrArray = array;
+			array = new t[max_size];
+			for (int i = 0; i <max_size; i++) {
+				array[i] = PtrArray[i];
+			}
+			delete[]PtrArray;
+		}
 	}
 
 	void Print() {
@@ -137,5 +153,8 @@ int main() { // Stck => L I F O - Last In First Out
 	S.Search_Element(40);
 	S.Get_Top();
 	S.Get_Last();
+	S.ResizeStack(7);
+	S.Get_Size();
+	S.Get_Length();
 
 }
