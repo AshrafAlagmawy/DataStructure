@@ -3,13 +3,10 @@
 Implementation of most datastructure used such as 
 
 ## Linear Data Structures
-1 - Array
-<br>
-2 - Stack
-<br>
-3 - Queue
-<br>
-4 - Linkedlist
+- Array
+- Stack
+- Queue
+- Linkedlist
 
 ## Non Linear Data Structures
 - Tree 
