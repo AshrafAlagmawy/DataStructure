@@ -2,6 +2,7 @@
 <br>
 Implementation of most datastructure used such as 
 <br>
+
 ## Linear Data Structures
 <br>
 1 - Array
@@ -12,6 +13,7 @@ Implementation of most datastructure used such as
 <br>
 4 - Linkedlist
 <br>
+
 ## Non Linear Data Structures
 <br>
 - Tree 
