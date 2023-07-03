@@ -11,9 +11,7 @@ Implementation of most datastructure used such as
 ## Non Linear Data Structures
 - Tree 
 - Graph
-<br>
-and others of them , the implementation will be with two methods
-<br>
-1 - array baseed implementation
-<br>
-2 - linkedlist based implementation
+
+## The implementation will be with two methods
+- Array baseed implementation
+- Linkedlist based implementation
