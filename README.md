@@ -2,15 +2,21 @@
 <br>
 Implementation of most datastructure used such as 
 <br>
-1 - Stack
+## Linear Data Structures
 <br>
-2 - Queue
+1 - Array
 <br>
-3 - Linkedlist
+2 - Stack
 <br>
-4 - Tree 
+3 - Queue
 <br>
-5 - Graph
+4 - Linkedlist
+<br>
+## Non Linear Data Structures
+<br>
+- Tree 
+<br>
+- Graph
 <br>
 and others of them , the implementation will be with two methods
 <br>
