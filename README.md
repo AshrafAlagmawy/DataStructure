@@ -13,7 +13,6 @@ Implementation of most datastructure used such as
 
 ## Non Linear Data Structures
 - Tree 
-<br>
 - Graph
 <br>
 and others of them , the implementation will be with two methods
