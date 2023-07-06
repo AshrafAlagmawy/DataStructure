@@ -1,6 +1,6 @@
-# Data-Structure
+# DataStructure
 
-Implementation of most datastructure used
+Implementation of most datastructures used
 
 ## Linear Data Structures
 - Array
